@@ -2,13 +2,14 @@
 
 <head>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
-
+   <div class="main">
     <form action="" class="formulario">
         <div class="contenedor">
             <header class="encabezado">
@@ -16,14 +17,13 @@
             </header>
             <section class="empresa">
                 <input type="text" class="nombre" placeholder="Nombre">
-                <input type="text" class="rut">
-                <input type="text" class="direccion">
-                <input type="text" class="direccion">
-                <input type="text" class="contacto">
-                <input type="tel" class="fono">
-                <input type="text" class="movil">
-                <input type="checkbox" class="wsp">
-                <span class="labelwsp">WhatsApp</span>
+                <input type="text" class="rut" placeholder="RUT">
+                <input type="text" class="direccion" placeholder="Direccion">
+                <input type="text" class="contacto" placeholder="Contacto">
+                <input type="tel" class="fono" placeholder="Telefono de contacto">
+                <input type="text" class="movil" placeholder="Celular">
+                <input type="checkbox" class="wsp"><span class="labelwsp">WhatsApp</span>
+                <br>
                 <select name="Ciudad" id="ciudad" class="ciudad">
                     <option value="Viña del Mar">VIÑA DEL MAR</option>
                 </select>
@@ -38,6 +38,8 @@
                     <option value="" class="ophabitacion">Tipo 2</option>
                     <option value="" class="ophabitacion">Tipo 3</option>
                 </select>
+					<h3> Tipos de habitaciones</h3>
+           			<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, cupiditate soluta optio expedita possimus voluptas ullam et corporis laudantium modi similique quas, quasi omnis dolorem nostrum qui, sequi assumenda a!</article>
             </section>
             <secction class="pago">
                 <div class="pagos">
@@ -50,6 +52,10 @@
                 </div>
             </secction>
             <div class="servicios">
+              <div class="tituloservicio">
+              	<span class="spanserv">Servicios</span>	
+              </div>
+               <br>
                 <input type="checkbox" class="opciones"> <span class="spanoption">Agua Caliente</span>
                 <br>
                 <input type="checkbox" class="opciones"> <span class="spanoption">Cocina</span>
@@ -84,9 +90,10 @@
         </div>
         <div>
             <div class="btn enviar">Enviar</div>
+            
         </div>
     </form>
-
+</div>
 </body>
 
 </html>
