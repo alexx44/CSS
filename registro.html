@@ -16,12 +16,12 @@
                 <h1>REGISTRO EMPRESA</h1>
             </header>
             <section class="empresa">
-                <input type="text" class="nombre" placeholder="Nombre">
-                <input type="text" class="rut" placeholder="RUT">
-                <input type="text" class="direccion" placeholder="Direccion">
-                <input type="text" class="contacto" placeholder="Contacto">
-                <input type="tel" class="fono" placeholder="Telefono de contacto">
-                <input type="text" class="movil" placeholder="Celular">
+                <input type="text" class="textinput nombre" placeholder="Nombre">
+                <input type="text" class="textinput rut" placeholder="RUT"><br>
+                <input type="text" class="textinput direccion" placeholder="Direccion">
+                <input type="text" class="textinput contacto" placeholder="Contacto">
+                <input type="tel" class="textinput fono" placeholder="Telefono de contacto">
+                <input type="text" class="textinput movil" placeholder="Celular">
                 <input type="checkbox" class="wsp"><span class="labelwsp">WhatsApp</span>
                 <br>
                 <select name="Ciudad" id="ciudad" class="ciudad">
@@ -30,7 +30,7 @@
                 <select name="region" id="" class="region">
                     <option value="Metropolitana">Metropolitana</option>
                 </select>
-                <input type="text" class="codigopostal" placeholder="Codigo Postal">
+                <input type="text" class="textinput codigopostal" placeholder="Codigo Postal">
             </section>
             <section class="tipo">
                 <select name="" id="" class="tipohabitacion">
@@ -48,7 +48,7 @@
                         <option value="optionpago">Efectivo</option>
                         <option value="optionpago">Deposito</option>
                     </select>
-                    <input type="text" class="otros">
+                    <input type="text" class="textinput otros">
                 </div>
             </secction>
             <div class="servicios">
@@ -89,6 +89,7 @@
             </div>
         </div>
         <div>
+           <input type="submit" class="enviar">
             <div class="btn enviar">Enviar</div>
             
         </div>
