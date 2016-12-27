@@ -79,18 +79,36 @@ article {
 	margin: 20px auto;
 	padding: 20px;
 	border-radius: 5px;
+	
+}
+.main .formulario .contenedor .empresa input[type="text"],
+.main .formulario .contenedor .empresa input[type="tel"]{
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 1px solid #226fc1;
+	font-family: Arial;
+	font-size: 16px;	
+}
+.main .formulario .contenedor .empresa input[type="text"]:focus,
+.main .formulario .contenedor .empresa input[type="tel"]:focus{
+	border: 2px solid #4fb560;
 }
 
-.main .formulario .contenedor .empresa .nombre {
-	display: block;
+.formulario input[type="submit"] {
+	width: 200px;
+	margin: 0 auto;
+	background: none;
+	border: 1px solid #4fb560;
+	color: #4fb560;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
 }
-.main .formulario .contenedor .empresa .rut {
-	display: block;
-}
-.main .formulario .contenedor .empresa {
-	display: block;
+.formulario input[type="submit"]:hover{
+	background: #4fb560;
+	color: #fff;
 }
 
-.main .formulario .contenedor .fono {
-	display: block;
-}
